@@ -12,23 +12,22 @@ import Contact from './pages/Contact'
 function App() {
   return (
     <Router>
-      <Header />
-      <div className="flex min-h-screen">
-        <Sidebar />
-
-        <main className="flex-1 p-4">
-          <Navbar />
-
-          {/* Page content goes here */}
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/work" element={<Work />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </main>
+      <div className="min-h-screen px-6">
+        <Header />
+        <Navbar />
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <Sidebar />
+          <main className="flex-1 p-4 col-span-2 bg-white rounded-xl">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/resume" element={<Resume />} />
+              <Route path="/work" element={<Work />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+          </main>
+        </div>
       </div>
-    </Router>
+    </Router >
   )
 }
 
