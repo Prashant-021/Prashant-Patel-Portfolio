@@ -6,12 +6,14 @@ import { CiLocationOn } from "react-icons/ci";
 import { FiDownload } from "react-icons/fi";
 
 import profile_picture from "../assets/Profile_picture.png"
+
+
 export const Sidebar = () => {
     const iconStyle = "h-6 w-6 text-primary";
     const dividerStyle = "text-gray-200"
     return (
-        <div className='bg-white p-6 rounded-xl text-center flex flex-col gap-2.5'>
-            <img src={profile_picture} alt="" srcset="" height={200} width={200} className='h-52 w-52 m-auto rounded-xl overflow-hidden mt-[-25%]' />
+        <div className='bg-white p-6 rounded-xl text-center flex flex-col gap-2.5 '>
+            <img src={profile_picture} alt="" srcset="" height={200} width={200} className='h-52 w-52 m-auto rounded-xl overflow-hidden md:mt-[-25%] mt-0'/>
             <h1 className='text-3xl font-bold'>Prashant Patel</h1>
             <p className='text-gray-400'>Front-End Developer</p>
             <SocialIcons />
@@ -20,7 +22,9 @@ export const Sidebar = () => {
                     <IoMdPhonePortrait className={iconStyle} />
                     <div className='text-left'>
                         <p className=' text-sm text-gray-400'>Phone</p>
-                        <p className='text-sm'>+91 8980437222</p>
+                        <a href="tel:+918080437222">
+                            <p className='text-sm'>+91 8980437222</p>
+                        </a>
                     </div>
                 </div>
                 <hr className={dividerStyle} />
@@ -28,7 +32,9 @@ export const Sidebar = () => {
                     <MdOutlineEmail className={iconStyle} />
                     <div className='text-left'>
                         <p className=' text-sm text-gray-400'>Email</p>
-                        <p className='text-sm'>pspatel021@gmail.com</p>
+                        <a href="mailto:pspatel021@gmail.com">
+                            <p className='text-sm'>pspatel021@gmail.com</p>
+                        </a>
                     </div>
                 </div>
                 <hr className={dividerStyle} />

@@ -17,7 +17,7 @@ export const Navbar = () => {
     ];
 
     return (
-        <nav className="flex justify-end gap-4 mb-4">
+        <nav className="flex flex-wrap justify-between md:justify-end gap-4 mb-4">
             {navItems.map(navItem => {
                 const isActive = location.pathname === navItem.to;
                 const baseStyle = "cursor-pointer w-20 h-20 text-xs px-4 py-2 rounded-xl";
