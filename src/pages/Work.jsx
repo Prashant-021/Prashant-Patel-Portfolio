@@ -1,8 +1,9 @@
 import React from 'react'
+import PageTitle from '../components/PageTitle'
 
 const Work = () => {
   return (
-    <div>Work</div>
+    <div className='p-5'><PageTitle title={"Portfolio"} /></div>
   )
 }
 

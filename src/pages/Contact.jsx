@@ -1,8 +1,9 @@
 import React from 'react'
+import PageTitle from '../components/PageTitle'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div className='p-5'><PageTitle title={"Contact"} /></div>
   )
 }
 

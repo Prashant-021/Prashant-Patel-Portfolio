@@ -3,10 +3,14 @@
 
 @theme {
     --color-background: #F2F5F9;
-    --color-primary: #FF9C1A;
-    --color-secondary: #EC1B09;
     --color-off-white: #E1E8EF;
     --color-secondary-background: #F2F7FC;
+    
+    --color-primary: #FF9C1A;
+    --color-primary-100: #FFEBD1;
 
+    --color-secondary: #EC1B09;
+    
+    
     --font-logo-text: "Pacifico"
 }
