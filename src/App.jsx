@@ -12,7 +12,7 @@ import Contact from './pages/Contact'
 function App() {
   return (
     <Router>
-      <div className="min-h-screen px-6">
+      <div className="min-h-screen p-6">
         <Header />
         <Navbar />
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
