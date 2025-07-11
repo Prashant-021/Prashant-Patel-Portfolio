@@ -15,7 +15,7 @@ export const Sidebar = () => {
         <div className='bg-white p-6 rounded-xl text-center flex flex-col gap-2.5 '>
             <img src={profile_picture} alt="" height={200} width={200} className='h-52 w-52 m-auto rounded-xl overflow-hidden md:mt-[-25%] mt-0'/>
             <h1 className='text-3xl font-bold'>Prashant Patel</h1>
-            <p className='text-gray-400'>Front-End Developer</p>
+            <p className='text-gray-400'>Full-Stack Developer</p>
             <SocialIcons />
             <div className="contactInfo m-3 bg-secondary-background rounded-xl p-6">
                 <div className='flex items-center w-full gap-2 my-2'>

@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div className='p-5'><PageTitle title={"Contact"} />
       <div className="mt-5 grid grid-cols-1 md:grid-cols-2 gap-3">
-        <div className="bg-primary-100 rounded-xl p-4">
+        <div className="bg-primary-100 rounded-xl p-4 col-span-2 md:col-span-1">
           <div className="flex items-center gap-2">
             <FaPhoneAlt className='h-6 w-6 text-primary' />
             <h4 className='text-2xl font-medium'>
@@ -20,7 +20,7 @@ const Contact = () => {
             <p className='mt-1.5'>+91 8980437222</p>
           </a>
         </div>
-        <div className="bg-primary-100 rounded-xl p-4">
+        <div className="bg-primary-100 rounded-xl p-4 col-span-2 md:col-span-1">
           <div className="flex items-center gap-2">
             <MdEmail className='h-6 w-6 text-primary' />
             <h4 className='text-2xl font-medium'>
