@@ -35,7 +35,7 @@ const Resume = () => {
           <div className="flex items-center gap-2">
             <h2 className='text-3xl'>Work Skills</h2>
           </div>
-          <SkillList skills={["React.js", "HTML", "CSS", "Redux-Toolkit", "JavaScript", "Tailwind CSS", "Bootstrap", "Python", "Fast API", "Git", "GitHub"]} />
+          <SkillList skills={["React.js", "HTML", "CSS", "Redux-Toolkit", "JavaScript", "Tailwind CSS", "Bootstrap", "PostgreSql", "Python", "Fast API", "Retool", "Git", "GitHub"]} />
         </div>
         <div>
           <div className="flex items-center gap-2">

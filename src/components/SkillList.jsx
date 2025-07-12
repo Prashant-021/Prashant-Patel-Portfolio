@@ -1,4 +1,5 @@
 import React from 'react'
+import SkillTag from './SkillTag'
 
 const SkillList = ({ skills }) => {
     return (
@@ -6,9 +7,7 @@ const SkillList = ({ skills }) => {
             {
                 skills.map((skill, index) => {
                     return (
-                        <div key={index} className='bg-secondary-background p-3 rounded-xl'>
-                            <p>{skill}</p>
-                        </div>
+                        <SkillTag skill={skill} index={index} key={index} />
                     )
                 })
             }
