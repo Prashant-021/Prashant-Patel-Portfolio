@@ -8,7 +8,7 @@ const projects = [
     link: "",
     company: "iView Labs Pvt. Ltd",
     description: "As the global DevOps and Agile industry body, DASA empowers organizations to transform into high-performance digital organizations. It provides the guidance, training, and community support to help your teams improve efficiency, enhance agility, and deliver value continuously.",
-    techStack: ["Reactjs", "Redux", "AntDesign"],
+    techStack: ["React.js", "Redux", "AntDesign"],
     image: ""
   }, {
     id: 2,
@@ -17,7 +17,7 @@ const projects = [
     company: "iView Labs Pvt. Ltd",
     link: "",
     description: "Crayon is no ordinary recruitment platform and aims to reinvent the way businesses hire. Traditionally, jobs are posted, hundreds of candidates apply, you sift through a myriad of different CVs, and if you're lucky, you manage to get through the interviews and hire someone hoping they'll be a natural fit for your business.",
-    techStack: ["Reactjs", "Redux", "Bootstrap"],
+    techStack: ["React.js", "Redux", "Bootstrap"],
     image: ""
   }, {
     id: 3,
@@ -25,6 +25,7 @@ const projects = [
     category: "Web Development",
     description: "DSA Visualizer is a web application designed to help students learn Data Structures and Algorithms through interactive, step-by-step visualizations.",
     link: "https://boisterous-cassata-46122e.netlify.app/",
+    techStack: ["React.js", "Redux", "Material UI"],
     image: ""
   }, {
     id: 4,
