@@ -48,7 +48,7 @@ export const Sidebar = () => {
                 <hr className={dividerStyle} />
                 <div className='mt-4 mb-2'>
                     <a
-                        href="https://drive.google.com/file/d/1f6v_pMTG9FBuYdxKuR130IzVEUIE9kCI/view?usp=sharing"  // Update this path to your actual resume file
+                        href="https://drive.google.com/file/d/1orYTJ9iin3w32k2H7ITjd4AxFmM6dpYQ/view?usp=sharing"  // Update this path to your actual resume file
                         download
                         target="_blank"
                         rel="noopener noreferrer"
