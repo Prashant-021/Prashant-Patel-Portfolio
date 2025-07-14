@@ -13,7 +13,7 @@ export const Sidebar = () => {
     const dividerStyle = "text-gray-200"
     return (
         <div className='bg-white p-6 rounded-xl text-center flex flex-col gap-2.5 '>
-            <img src={profile_picture} alt="" height={200} width={200} className='h-52 w-52 m-auto rounded-xl overflow-hidden md:mt-[-25%] mt-0'/>
+            <img src={profile_picture} alt="" height={200} width={200} className='h-52 w-52 m-auto rounded-xl overflow-hidden md:mt-[-25%] mt-0' />
             <h1 className='text-3xl font-bold'>Prashant Patel</h1>
             <p className='text-gray-400'>Full-Stack Developer</p>
             <SocialIcons />
@@ -48,7 +48,7 @@ export const Sidebar = () => {
                 <hr className={dividerStyle} />
                 <div className='mt-4 mb-2'>
                     <a
-                        href="https://drive.google.com/file/d/17u1gk_bOP3ALBicK7xEXor7ixhHG8WvI/view?usp=sharing"  // Update this path to your actual resume file
+                        href="https://drive.google.com/file/d/1f6v_pMTG9FBuYdxKuR130IzVEUIE9kCI/view?usp=sharing"  // Update this path to your actual resume file
                         download
                         target="_blank"
                         rel="noopener noreferrer"
