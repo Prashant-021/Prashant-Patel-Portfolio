@@ -3,20 +3,20 @@ import PageTitle from '../components/PageTitle'
 const projects = [
   {
     id: 1,
-    title: "DASA",
+    title: "Learning Platform",
     category: "Web Development",
     link: "",
     company: "iView Labs Pvt. Ltd",
-    description: "As the global DevOps and Agile industry body, DASA empowers organizations to transform into high-performance digital organizations. It provides the guidance, training, and community support to help your teams improve efficiency, enhance agility, and deliver value continuously.",
+    description: "As the global DevOps and Agile industry body, This Learning Platform empowers organizations to transform into high-performance digital organizations. It provides the guidance, training, and community support to help your teams improve efficiency, enhance agility, and deliver value continuously.",
     techStack: ["React.js", "Redux", "AntDesign"],
     image: ""
   }, {
     id: 2,
-    title: "Crayon Jobs",
+    title: "Job Portal",
     category: "Web Development",
     company: "iView Labs Pvt. Ltd",
     link: "",
-    description: "Crayon is no ordinary recruitment platform and aims to reinvent the way businesses hire. Traditionally, jobs are posted, hundreds of candidates apply, you sift through a myriad of different CVs, and if you're lucky, you manage to get through the interviews and hire someone hoping they'll be a natural fit for your business.",
+    description: "This job portal is no ordinary recruitment platform and aims to reinvent the way businesses hire. Traditionally, jobs are posted, hundreds of candidates apply, you sift through a myriad of different CVs, and if you're lucky, you manage to get through the interviews and hire someone hoping they'll be a natural fit for your business.",
     techStack: ["React.js", "Redux", "Bootstrap"],
     image: ""
   }, {
