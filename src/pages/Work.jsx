@@ -3,6 +3,26 @@ import PageTitle from '../components/PageTitle'
 const projects = [
   {
     id: 1,
+    title: "Secure Response Strategies",
+    category: "Web Development",
+    link: "https://www.secureresponsestrategies.com/",
+    company: "",
+    description: "I designed and developed the official website for Secure Response Strategies, a professional security consulting firm. The site features a clean, responsive, and service-focused design that highlights the company’s expertise in security assessments, emergency planning, and active-threat training. I focused on creating a trustworthy and user-friendly experience with clear calls to action, intuitive navigation, and well-structured content that effectively communicates the brand’s credibility and professionalism.",
+    techStack: ["Wix", "Velo"],
+    image: ""
+  },
+  {
+    id: 1,
+    title: "Secure Response Strategies",
+    category: "Web Development",
+    link: "",
+    company: "",
+    description: "I designed and developed the official website for Secure Response Strategies, a professional security consulting firm. The site features a clean, responsive, and service-focused design that highlights the company’s expertise in security assessments, emergency planning, and active-threat training. I focused on creating a trustworthy and user-friendly experience with clear calls to action, intuitive navigation, and well-structured content that effectively communicates the brand’s credibility and professionalism.",
+    techStack: ["Wix", "Velo"],
+    image: ""
+  },
+  {
+    id: 1,
     title: "Learning Platform",
     category: "Web Development",
     link: "",
