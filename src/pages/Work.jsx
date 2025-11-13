@@ -13,11 +13,11 @@ const projects = [
   },
   {
     id: 1,
-    title: "Secure Response Strategies",
+    title: "i-hear",
     category: "Web Development",
-    link: "",
+    link: "https://hiyadigital12.wixstudio.com/i-hear",
     company: "",
-    description: "I designed and developed the official website for Secure Response Strategies, a professional security consulting firm. The site features a clean, responsive, and service-focused design that highlights the company’s expertise in security assessments, emergency planning, and active-threat training. I focused on creating a trustworthy and user-friendly experience with clear calls to action, intuitive navigation, and well-structured content that effectively communicates the brand’s credibility and professionalism.",
+    description: "I designed and developed the website for i-Hear, a hearing-aid e-commerce platform built on Wix Studio. The site highlights product categories, detailed how-it-works and care sections, and clearly guides users from hearing awareness to purchasing suitable devices — all delivered through a clean, accessible, and conversion-focused layout.",
     techStack: ["Wix", "Velo"],
     image: ""
   },
