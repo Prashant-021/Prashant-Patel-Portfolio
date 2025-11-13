@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import PageTitle from '../components/PageTitle'
+import { FaLink } from "react-icons/fa6";
 const projects = [
   {
     id: 1,
@@ -85,7 +86,10 @@ const Work = () => {
             <div key={project.id} className='bg-secondary-background p-5 rounded-xl flex flex-col gap-1.5'>
               {project.image && <img src={project?.image} alt="" />}
               <p className='text-sm text-gray-500'>{project.category}</p>
-              <h3 className='font-bold'>{project.title}</h3>
+              <div className='flex gap-2.5 items-center'>
+                <h3 className='font-bold'>{project.title}</h3>
+                {project.link && <a href={project.link} rel="noopener noreferrer" target='_blank' ><FaLink /></a>}
+              </div>
               {project.company && <p className='text-sm'><strong>Company:</strong> {project.company}</p>}
               <p className='text-sm text-gray-500 line-clamp-3' title={project.description}>{project.description}</p>
               <p className='text-sm'>
@@ -94,7 +98,7 @@ const Work = () => {
                   project?.techStack?.join(", ")
                 }
               </p>
-              {project.link && <a href={project.link} rel="noopener noreferrer" target='_blank' >Link</a>}
+
             </div>
           )
         })}
