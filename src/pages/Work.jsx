@@ -13,7 +13,7 @@ const projects = [
     image: ""
   },
   {
-    id: 1,
+    id: 2,
     title: "i-hear",
     category: "Web Development",
     link: "https://hiyadigital12.wixstudio.com/i-hear",
@@ -23,7 +23,7 @@ const projects = [
     image: ""
   },
   {
-    id: 1,
+    id: 3,
     title: "Learning Platform",
     category: "Web Development",
     link: "",
@@ -32,7 +32,7 @@ const projects = [
     techStack: ["React.js", "Redux", "AntDesign"],
     image: ""
   }, {
-    id: 2,
+    id: 4,
     title: "Job Portal",
     category: "Web Development",
     company: "iView Labs Pvt. Ltd",
@@ -41,7 +41,7 @@ const projects = [
     techStack: ["React.js", "Redux", "Bootstrap"],
     image: ""
   }, {
-    id: 3,
+    id: 5,
     title: "DSA Visualizer",
     category: "Web Development",
     description: "DSA Visualizer is a web application designed to help students learn Data Structures and Algorithms through interactive, step-by-step visualizations.",
@@ -49,7 +49,7 @@ const projects = [
     techStack: ["React.js", "Redux", "Material UI"],
     image: ""
   }, {
-    id: 4,
+    id: 6,
     title: "Brick and Block",
     category: "App Development",
     description: "Brick & Block Inventory Manager is a desktop application designed to streamline the tracking and management of bricks and blocks in manufacturing or construction settings. The app allows users to manage inventory, calculate the quantity of bricks and blocks produced, and maintain detailed records of stock movement. It also includes functionality to store provider details and automatically generate bills based on materials supplied, ensuring accurate accounting and smooth operations.",
